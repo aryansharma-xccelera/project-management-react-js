@@ -9,6 +9,8 @@
   <div class="flex min-w-0 flex-1 flex-col">
     <TopBar />
     <main class="flex-1 p-5 lg:p-8">{@render children()}</main>
-    <footer class="px-5 py-4 text-center text-sm text-muted lg:px-8">Cross-repo push test</footer>
+    <footer class="border-t border-line px-5 py-4 text-center text-sm text-muted lg:px-8">
+      Cross-repo re-push fix verification
+    </footer>
   </div>
 </div>
